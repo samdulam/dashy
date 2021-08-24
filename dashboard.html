@@ -1,0 +1,174 @@
+
+<html>
+<head>
+<title>Dashboard</title>
+<link rel="stylesheet" href="dashboard.css" type="text/css" media="all">
+<script src="dashboard.js"></script>
+</head>
+<body>
+<div id="analytics">
+
+<h1>Dashboard</h1>
+
+<div class="sections">
+<div class="section">
+<div class="section_metadata">
+<a name="open-issues-by-type"></a>
+<h2 class="section_title">Open Issues by Type</h2>
+
+<div class="description">
+Queries of issues by type, using their label.
+</div>
+
+</div> <!-- section_metadata -->
+<div class="section_widgets">
+<div class="number_widgets">
+<a name="bug"></a>
+<a href="https://github.com/portainer/portainer/issues?q=is%3Aopen%20is%3Aissue%20label%3A%22kind%2Fbug%22">
+<div class="number_widget red">
+<span class="title">Bug</span>
+<span class="value">158</span>
+</div>
+</a>
+<a name="enhancement"></a>
+<a href="https://github.com/portainer/portainer/issues?q=is%3Aopen%20is%3Aissue%20label%3A%22kind%2Fenhancement%22">
+<div class="number_widget green">
+<span class="title">Enhancement</span>
+<span class="value">519</span>
+</div>
+</a>
+<a name="bug---need-confirmation"></a>
+<a href="https://github.com/portainer/portainer/issues?q=is%3Aopen%20is%3Aissue%20label%3A%22bug%2Fneed-confirmation%22">
+<div class="number_widget blue">
+<span class="title">Bug - Need Confirmation</span>
+<span class="value">50</span>
+</div>
+</a>
+<a name="unable-to-reproduce"></a>
+<a href="https://github.com/portainer/portainer/issues?q=is%3Aopen%20is%3Aissue%20label%3A%22bug%2Funable-to-reproduce%22">
+<div class="number_widget black">
+<span class="title">Unable to Reproduce</span>
+<span class="value">8</span>
+</div>
+</a>
+<a name="question"></a>
+<a href="https://github.com/portainer/portainer/issues?q=is%3Aopen%20is%3Aissue%20label%3A%22kind%2Fquestion%22">
+<div class="number_widget yellow">
+<span class="title">Question</span>
+<span class="value">22</span>
+</div>
+</a>
+</div> <!-- number_widgets -->
+</div> <!-- section_widgets -->
+</div> <!-- section -->
+<div class="section">
+<div class="section_metadata">
+<a name="open-issues-by-age"></a>
+<h2 class="section_title">Open Issues by Age</h2>
+
+<div class="description">
+Queries of open issues by their creation date.
+</div>
+
+</div> <!-- section_metadata -->
+<div class="section_widgets">
+<div class="graph_widget">
+<a name="age"></a>
+<h3 class="graph_title">Age</h3>
+<div class="graph">
+<div class="graph_item green">
+<span class="graph_item_title">
+<a href="https://github.com/portainer/portainer/issues?q=is%3Aopen%20is%3Aissue%20created%3A%3E2021-08-17">
+<span class="title">7 days</span>
+</a>
+</span>
+<span class="graph_item_value">
+<a href="https://github.com/portainer/portainer/issues?q=is%3Aopen%20is%3Aissue%20created%3A%3E2021-08-17">
+<span class="value" style="width: 1%;"></span>
+</a>
+</span>
+</div>
+<div class="graph_item blue">
+<span class="graph_item_title">
+<a href="https://github.com/portainer/portainer/issues?q=is%3Aopen%20is%3Aissue%20created%3A2021-07-25..2021-08-17">
+<span class="title">30 days</span>
+</a>
+</span>
+<span class="graph_item_value">
+<a href="https://github.com/portainer/portainer/issues?q=is%3Aopen%20is%3Aissue%20created%3A2021-07-25..2021-08-17">
+<span class="value" style="width: 4%;"></span>
+</a>
+</span>
+</div>
+<div class="graph_item">
+<span class="graph_item_title">
+<a href="https://github.com/portainer/portainer/issues?q=is%3Aopen%20is%3Aissue%20created%3A2021-05-26..2021-07-25">
+<span class="title">90 days</span>
+</a>
+</span>
+<span class="graph_item_value">
+<a href="https://github.com/portainer/portainer/issues?q=is%3Aopen%20is%3Aissue%20created%3A2021-05-26..2021-07-25">
+<span class="value" style="width: 13%;">67</span>
+</a>
+</span>
+</div>
+<div class="graph_item">
+<span class="graph_item_title">
+<a href="https://github.com/portainer/portainer/issues?q=is%3Aopen%20is%3Aissue%20created%3A2020-08-24..2021-05-26">
+<span class="title">1 year</span>
+</a>
+</span>
+<span class="graph_item_value">
+<a href="https://github.com/portainer/portainer/issues?q=is%3Aopen%20is%3Aissue%20created%3A2020-08-24..2021-05-26">
+<span class="value" style="width: 37%;">181</span>
+</a>
+</span>
+</div>
+<div class="graph_item red">
+<span class="graph_item_title">
+<a href="https://github.com/portainer/portainer/issues?q=is%3Aopen%20is%3Aissue%20created%3A2019-08-24..2020-08-24">
+<span class="title">2 years</span>
+</a>
+</span>
+<span class="graph_item_value">
+<a href="https://github.com/portainer/portainer/issues?q=is%3Aopen%20is%3Aissue%20created%3A2019-08-24..2020-08-24">
+<span class="value" style="width: 36%;">176</span>
+</a>
+</span>
+</div>
+<div class="graph_item red">
+<span class="graph_item_title">
+<a href="https://github.com/portainer/portainer/issues?q=is%3Aopen%20is%3Aissue%20created%3A2018-08-24..2019-08-24">
+<span class="title">3 years</span>
+</a>
+</span>
+<span class="graph_item_value">
+<a href="https://github.com/portainer/portainer/issues?q=is%3Aopen%20is%3Aissue%20created%3A2018-08-24..2019-08-24">
+<span class="value" style="width: 27%;">136</span>
+</a>
+</span>
+</div>
+<div class="graph_item red">
+<span class="graph_item_title">
+<a href="https://github.com/portainer/portainer/issues?q=is%3Aopen%20is%3Aissue%20created%3A%3C2020-08-24">
+<span class="title">>3 years</span>
+</a>
+</span>
+<span class="graph_item_value">
+<a href="https://github.com/portainer/portainer/issues?q=is%3Aopen%20is%3Aissue%20created%3A%3C2020-08-24">
+<span class="value" style="width: 100%;">486</span>
+</a>
+</span>
+</div>
+</div>
+</div>
+</div> <!-- section_widgets -->
+</div> <!-- section -->
+
+</div> <!-- sections -->
+<div id="footer">
+Generated by <a href="https://github.com/ethomson/issue-dashboard" target="_blank" rel="noopener noreferrer">ethomson/issue-dashboard</a>
+</div>
+</div> <!-- analytics -->
+</body>
+</html>
