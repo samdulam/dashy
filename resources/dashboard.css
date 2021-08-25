@@ -69,9 +69,9 @@ div.section:after {
     display: inline-block;
 }
 div.section_metadata {
-    width: 275px;
+    /* width: 275px;
     margin-right: 25px;
-    float: left;
+    float: left; */
 }
 div.section_metadata h2 {
     padding: 0;
