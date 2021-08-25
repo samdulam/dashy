@@ -93,7 +93,7 @@ div.section_widgets > *:first-child {
     margin-bottom: 25px
 }
 div.section_widgets > * {
-    margin-top: 25px;
+    margin-top: 45px;
 }
 
 /* Number widgets */
@@ -273,7 +273,7 @@ div.graph_item:last-of-type span.graph_item_value {
 /* Table widgets */
 
 div.table_widget h3.table_title {
-    margin: 0 0 20px 0;
+    margin: 0 0 5px 0;
 }
 
 div.table_widget h3.table_title a {
@@ -282,7 +282,7 @@ div.table_widget h3.table_title a {
 
 div.table_widget table {
     border-collapse: collapse;
-    width: 600px;
+    /* width: 600px; */
 }
 div.table_widget table th, div.table_widget table td {
     border: solid 1px #888888;
