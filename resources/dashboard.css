@@ -75,19 +75,22 @@ div.section_metadata {
 }
 div.section_metadata h2 {
     padding: 0;
-    margin: 0;
+    margin-bottom: 10px
 }
 div.section_metadata .description {
-    margin-top: 15px;
+    margin-bottom: 25px;
 }
 
 div.section_widgets {
     float: left;
+    margin-top: 0px;
+    margin-bottom: 20px;
     /* width: 600px; */
 }
 
 div.section_widgets > *:first-child {
     margin-top: 2;
+    margin-bottom: 25px
 }
 div.section_widgets > * {
     margin-top: 25px;
@@ -201,7 +204,7 @@ div.string_widget h3 {
 /* Graph widgets */
 
 div.graph_widget h3.graph_title {
-    margin: 0 0 20px 0;
+    margin: 0 0 5px 0;
 }
 
 div.graph_widget h3.graph_title a {
