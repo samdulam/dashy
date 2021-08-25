@@ -75,7 +75,7 @@ div.section_metadata {
 }
 div.section_metadata h2 {
     padding: 0;
-    margin-bottom: 10px
+    margin-bottom: 10px;
 }
 div.section_metadata .description {
     margin-bottom: 25px;
@@ -90,7 +90,7 @@ div.section_widgets {
 
 div.section_widgets > *:first-child {
     margin-top: 2;
-    margin-bottom: 25px
+    margin-bottom: 25px;
 }
 div.section_widgets > * {
     margin-top: 45px;
